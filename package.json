@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-omts",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the OMTS style",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "omts",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "author": "OMTS",
+  "contributors": [
+    "Jeremie Drouet <jeremie.drouet@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1",
+    "eslint-config-google": ">=0.9.1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
